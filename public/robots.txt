@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sanitation.genrobotics.com
+
+# Sitemaps
+Sitemap: https://sanitation.genrobotics.com/sitemap.xml

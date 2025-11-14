@@ -1,0 +1,85 @@
+
+$columns: 3;
+$radius: 0.5;
+$mapHeight: 3.5em;
+$mapWidth: 75%;
+$lineWidth: 0.25em;
+$lineColor: rgba(255, 255, 255, 0.5);
+
+.mapWrapper {
+  position: absolute;
+  width: $mapWidth;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  .row {
+    position: relative;
+    width: 100%;
+    left: 0;
+    height: ($mapHeight * 2);
+    .itemBar {
+      position: relative;
+      display: inline-block;
+      width: (100% / $columns);
+      height: $lineWidth;
+      margin-top: ($mapHeight * 2) - ($lineWidth / 2);
+      background: $lineColor;
+      .itemInfo {
+        position: absolute;
+        width: 100%;
+        bottom: $lineWidth * 2;
+        text-align: center;
+        &:after {
+          content: "";
+          position: absolute;
+          width: $lineWidth * 2;
+          height: $lineWidth;
+          background: $lineColor;
+          border-radius: 3em 3em 0 0;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -($lineWidth);
+          transition: width 0.2s ease-in, height 0.2s ease-in;
+        }
+      }
+      &:hover .itemInfo:after {
+        width: $lineWidth * 10;
+        height: $lineWidth * 1;
+        transition: width 0.2s ease-in, height 0.2s ease-in;
+      }
+      .itemDate {
+        position: absolute;
+        width: 100%;
+        font-size: 1.25em;
+        top: $lineWidth;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+      }
+    }
+    &:nth-child(2n) .itemBar:first-child:after {
+      content: "";
+      position: absolute;
+      width: ($mapHeight * $radius);
+      height: ($mapHeight * 2) - $lineWidth;
+      right: 100%;
+      top: 0;
+      border-radius: ($mapHeight * 2) 0 0 ($mapHeight * 2);
+      border: $lineWidth solid $lineColor;
+      border-right: unset;
+    }
+    &:nth-child(2n + 1) .itemBar:last-child:after {
+      content: "";
+      position: absolute;
+      width: ($mapHeight * $radius);
+      height: ($mapHeight * 2) - $lineWidth;
+      left: 100%;
+      top: 0;
+      border-radius: 0 ($mapHeight * 2) ($mapHeight * 2) 0;
+      border: $lineWidth solid $lineColor;
+      border-left: unset;
+    }
+    &:last-child .itemBar:after {
+      display: none;
+    }
+  }
+}
