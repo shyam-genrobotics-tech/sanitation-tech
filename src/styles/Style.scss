@@ -1218,7 +1218,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 7rem 0;
+  padding: 6rem 0;
 
   .cleaners_sec .container-fluid {
     padding-left: 0 !important;
@@ -1443,8 +1443,7 @@ header {
   align-items: center;
   justify-content: center;
   max-height: 100%;
-  padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding: 6rem 0;
 
   .image_wrapper {
     position: relative;
@@ -1788,7 +1787,7 @@ header {
 
 .impact_sec {
   position: relative;
-  padding-top: 15rem;
+  padding: 6rem 0;
   height: 100%;
   min-height: 500px;
   display: flex;
@@ -2073,7 +2072,7 @@ header {
   min-height: 100vh;
   height: 100%;
   width: auto;
-  padding-top: 7rem !important;
+  padding: 6rem 0 !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 
@@ -2412,8 +2411,7 @@ header {
   height: 100%;
   /*align-items: center;
   justify-content: center;*/
-  padding-bottom: 10rem;
-  padding-top: 8rem;
+  padding: 6rem 0;
 
   .rob_pro_contents {
     /*padding: 0 40px;*/
@@ -2857,7 +2855,7 @@ header {
 
 /* Modals section */
 .modals_sec {
-  padding: 5rem 0;
+  padding: 6rem 0;
 
   .engagementCard {
     position: relative;
@@ -3337,7 +3335,7 @@ header {
 
 /* Services Wrapper*/
 .service_sec {
-  padding-top: 4rem !important;
+  padding: 6rem 0 !important;
 
   .services_wrapper {
     background-color: #000;
@@ -3714,7 +3712,7 @@ section.service_sec.gcrow_services .service_card p {
 }*/
 
 .why-choose {
-  padding: 48px 20px;
+  padding: 6rem 20px;
   background-color: #fff;
   text-align: center;
   min-height: 100vh;
@@ -3844,7 +3842,7 @@ section.service_sec.gcrow_services .service_card p {
 /* Case study section */
 .case_studies {
   position: relative;
-  padding: 7rem 0;
+  padding: 6rem 0;
   width: 100%;
   height: 100%;
   background-color: #f4f4f4;
@@ -4335,8 +4333,7 @@ section.service_sec.gcrow_services .service_card p {
 }
 
 .industries_sec {
-  padding-top: 10rem;
-  padding-bottom: 3rem;
+  padding: 6rem 0;
 
   .title__ {
     text-align: center;
@@ -4401,7 +4398,7 @@ section.service_sec.gcrow_services .service_card p {
 }
 
 .global_challenge_sec {
-  padding: 7rem 0;
+  padding: 6rem 0;
   height: 100%;
   width: 100%;
 
@@ -4656,6 +4653,10 @@ section.service_sec.gcrow_services .service_card p {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 6rem 0;
+  .recognition_title{
+    font-size: 2.5rem !important;
+  }
 
   @media screen and (max-width: 1024px) {
     .recognition_container {
@@ -6989,6 +6990,7 @@ section.key_features .flex.justify-center.mt-10 {
   position: relative;
   padding: 5rem 0;
   overflow: hidden;
+  padding-bottom: 0 !important;
 
   h1 {
     font-family: "Anton", sans-serif;
@@ -7182,12 +7184,14 @@ section.key_features .flex.justify-center.mt-10 {
 
 /* Mission Robo Hole */
 .robo_hole {
+  padding-top: 0 !important;
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   align-items: center;
   justify-content: center;
+  
 
   .mission_img {
     object-fit: contain;
@@ -7258,9 +7262,9 @@ section.key_features .flex.justify-center.mt-10 {
     align-items: center;
   }
 
-  @media screen and (max-width: 1920px) {
+  /*@media screen and (max-width: 1920px) {
     min-height: 100vh;
-  }
+  }*/
 
   @media screen and (max-width: 1024px) {
     min-height: 60vh;
@@ -7388,7 +7392,7 @@ section.key_features .flex.justify-center.mt-10 {
 
 /* Clients Section  */
 .clients_sec {
-  padding: 5rem 0;
+  padding: 6rem 0;
   background-color: #f4f4f4;
 
   .clients-container {
@@ -7644,7 +7648,7 @@ section.key_features .flex.justify-center.mt-10 {
 /* Bandicoot Form */
 .bandicoot-form-section {
   background: linear-gradient(to right, #fcd901, #fdf4ae);
-  padding: 4rem 1rem;
+  padding: 6rem 1rem;
   text-align: center;
 
   @media screen and (max-width: 600px) {
@@ -8680,7 +8684,7 @@ section.key_features .flex.justify-center.mt-10 {
 /* BANDICOOT TRUST US SECTION */
 .trust-us-section {
   position: relative;
-  padding: 5rem 0;
+  padding: 6rem 0;
   width: 100%;
   height: 100%;
   background-color: #f3f5f7;

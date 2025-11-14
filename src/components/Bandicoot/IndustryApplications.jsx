@@ -22,15 +22,15 @@ const sectors = [
     icon: icon3,
   },
   {
-    name: "Distillery & Beverage",
+    name: "Distillery & Beverage Industries",
     icon: icon4,
   },
   {
-    name: "Aviation & Airport",
+    name: "Aviation & Airport Infrastructure",
     icon: icon5,
   },
   {
-    name: "Hospitality & Tourism",
+    name: "Hospitality & Tourism Industry",
     icon: icon6,
   },
 ];
