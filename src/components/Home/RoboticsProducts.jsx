@@ -11,10 +11,10 @@ import wilboar from "@/assets/product-logos/product_wilboar.webp";
 import wilboarTitle from "@/assets/product-logos/wilboar_card_logo.webp";
 import gmammoth from "@/assets/product-logos/product_mammoth.webp";
 import gmammothTitle from "@/assets/product-logos/gmammoth_card_logo.webp";
-import gCrowTitle from "@/assets/product-logos/product_gcrow.webp";
-import gCrow from "@/assets/product-logos/gcrow_card_logo.webp";
-import gMambaTitle from "@/assets/product-logos/product_gmamba.webp";
-import gMamba from "@/assets/product-logos/gmamba_card_logo.webp";
+import gCrowTitle from "@/assets/product-logos/gcrow_card_logo.webp";
+import gCrow from "@/assets/product-logos/product_gcrow.webp";
+import gMambaTitle from "@/assets/product-logos/gmamba_card_logo.webp";
+import gMamba from "@/assets/product-logos/product_gmamba.webp";
 
 import Image from "next/image";
 import Slider from "react-slick";

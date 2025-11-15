@@ -32,7 +32,7 @@ function Hero1() {
       <div className="context_area" id="hero_main">
         <h1 className="since-banner home">
           Innovating for Safer Cities,
-           HealthierLives:
+           HealthierLives:<br />
           <span className="secondLine">
             Compliance-Driven Robotics for a Cleaner Future.
           </span>

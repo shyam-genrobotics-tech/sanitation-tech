@@ -8,7 +8,7 @@ function Hero10() {
           <h1>Join Our Mission</h1>
           <p>
             Be a part of a team that's transforming communities and saving lives
-            through <br /> robotics and AI. Your work can create a real-world
+            through robotics and AI.<br /> Your work can create a real-world
             impact.
           </p>
           <a href="#positions" className="careers_btn">
